@@ -76,10 +76,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AirportCodeSpecimenBuilder.cs" />
     <Compile Include="AutoFixtureUnitTests.cs" />
     <Compile Include="CollectionOfCustomTypes.cs" />
     <Compile Include="Collections.cs" />
+    <Compile Include="CustomizingAutoFixturePipeline.cs" />
     <Compile Include="CustomObject.cs" />
+    <Compile Include="CutomizingEntireFixtures.cs" />
     <Compile Include="DataAnnotatedObjects.cs" />
     <Compile Include="DatesAndTimes.cs" />
     <Compile Include="DebugMessageBuffer.cs" />
