@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LearnAutoFixture
+﻿namespace LearnAutoFixture
 {
     public class EmailMessage
     {
@@ -19,11 +13,13 @@ namespace LearnAutoFixture
         public string Subject { get; set; }
         public bool IsImportant { get; set; }
         
-        public EmailMessage(string toAddress,string messageBody,bool isImportant)
+        public EmailMessage(string toAddress,string messageBody,bool isImportant,string subject)
         {
             ToAddress = toAddress;
             MessageBody = messageBody;
             IsImportant = isImportant;
+            Subject = subject;
+
         }
 
     }

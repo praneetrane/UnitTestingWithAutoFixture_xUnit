@@ -12,9 +12,9 @@ namespace LearnAutoFixure.UnitTests
         {
             //arrange
             var sut = new EmailMessageBuffer();
-            EmailMessage message = new EmailMessage("praneet.rane@aptify.com", "Hope you are doing well", false);
+            EmailMessage message = new EmailMessage("praneet.rane@aptify.com", "Hope you are doing well", false, "Email Subject");
             message.Subject = "Hi";
-            
+
             //act
             sut.Add(message);
 

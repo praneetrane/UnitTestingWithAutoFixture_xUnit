@@ -47,10 +47,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Airport.cs" />
+    <Compile Include="AnotherEmailMessageBuffer.cs" />
+    <Compile Include="Calculator.cs" />
     <Compile Include="DecimalCalculator.cs" />
     <Compile Include="EmailMessage.cs" />
     <Compile Include="EmailMessageBuffer.cs" />
+    <Compile Include="EmailMessageBuffer_AutoMockMoq.cs" />
     <Compile Include="FlightDetails.cs" />
+    <Compile Include="IEmailGateway.cs" />
     <Compile Include="IntCalculator.cs" />
     <Compile Include="LogMessage.cs" />
     <Compile Include="LogMessageCreator.cs" />
